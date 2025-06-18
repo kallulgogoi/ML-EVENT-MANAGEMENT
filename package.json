@@ -10,7 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"serve-json": "json-server --watch event_dummy.json --port 4000"
+		"serve-json": "json-server --watch Events_details.json --port 4000"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
