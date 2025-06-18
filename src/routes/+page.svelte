@@ -1,5 +1,4 @@
-<!-- home -->
-<script>
+<!-- <script>
 	export let data;
 	const events = data.events;
 	const now = new Date();
@@ -11,6 +10,12 @@
 			new Date(event.event_start_datetime) <= now && new Date(event.event_end_datetime) >= now
 	);
 	const pastEvents = events.filter((event) => new Date(event.event_end_datetime) < now);
+</script> -->
+
+<script>
+	const events = async () => {
+		const response = fetch('');
+	};
 </script>
 
 <div class="min-h-screen bg-gray-900 px-4 py-12 text-gray-100 sm:px-6 lg:px-8">
