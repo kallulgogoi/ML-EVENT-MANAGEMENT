@@ -19,11 +19,8 @@
 		<h1
 			class="mb-8 bg-gradient-to-r from-orange-600 to-amber-500 bg-clip-text text-4xl font-bold text-transparent sm:text-5xl"
 		>
-			Upcoming Events
+			Events
 		</h1>
-		<p class="mx-auto mt-4 max-w-3xl text-lg text-gray-400">
-			Discover and participate in our exciting events
-		</p>
 	</div>
 
 	<!-- Ongoing Events -->
@@ -46,7 +43,6 @@
 								src={event.poster_image}
 								alt={event.event_name}
 								class="h-full w-full object-cover"
-								on:error={(e) => (e.target.src = '/default-event-dark.jpg')}
 							/>
 							<div
 								class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"
@@ -134,7 +130,6 @@
 								src={event.poster_image}
 								alt={event.event_name}
 								class="h-full w-full object-cover"
-								on:error={(e) => (e.target.src = '/default-event-dark.jpg')}
 							/>
 							<div
 								class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"
@@ -217,7 +212,6 @@
 								src={event.poster_image}
 								alt={event.event_name}
 								class="h-full w-full object-cover grayscale transition-all hover:grayscale-0"
-								on:error={(e) => (e.target.src = '/default-event-dark.jpg')}
 							/>
 							<div
 								class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"

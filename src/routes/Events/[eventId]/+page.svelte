@@ -43,12 +43,7 @@
 
 		<!-- Mobile Image -->
 		<div class="mb-8 overflow-hidden rounded-xl shadow-2xl lg:hidden">
-			<img
-				src={event.poster_image}
-				alt={event.event_name}
-				class="h-80 w-full object-cover"
-				on:error={(e) => (e.target.src = '/default-event-dark.jpg')}
-			/>
+			<img src={event.poster_image} alt={event.event_name} class="h-80 w-full object-cover" />
 		</div>
 
 		<!-- Main Content Grid -->
@@ -59,7 +54,6 @@
 					src={event.poster_image}
 					alt={event.event_name}
 					class="h-full min-h-[500px] w-full object-cover"
-					on:error={(e) => (e.target.src = '/default-event-dark.jpg')}
 				/>
 			</div>
 
